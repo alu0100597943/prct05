@@ -6,6 +6,7 @@ class Fracion
 	attr_reader :a, :b
 	def initialize(a,b)
 		@a, @b = a.to_i, b.to_i
+	raise ArgumentError, 'Denominador Negativo' @b == 0? 0
 	end
 
 	def to_s
